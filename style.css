@@ -1,3 +1,32 @@
+.container{
+    background-image: linear-gradient(180deg,  #2F1134, #631F70);
+    margin: auto;
+    width: 700px;
+    border-radius: 12px;
+}
+.header{
+    text-align: center;
+    margin: auto;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+.title{
+    color: #fbcd23;
+}
+
+
+.flex-title{
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+
 input{
     margin: 0.5rem;
     padding: 0.5rem;
