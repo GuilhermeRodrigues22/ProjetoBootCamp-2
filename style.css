@@ -1,32 +1,58 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 .container {
   background-image: linear-gradient(180deg, #2f1134, #631f70);
   margin: auto;
-  width: 700px;
-  border-radius: 12px;
+  width: 660px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 .header {
   text-align: center;
   margin: auto;
+  padding: 1rem;
 }
 .title {
   color: #fbcd23;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-bottom: 0.7rem;
 }
 .subtitle {
   color: white;
 }
 .second-subtitle {
   color: white;
+  margin: 0.6rem;
 }
 .third-subtitle {
   color: white;
+  padding-bottom: 1.2rem;
 }
-
+.flex-container {
+  background-color: #4b1854;
+  background-image: linear-gradient(170deg, #5c1d67, #1f0c22);
+  border-radius: 7px;
+  width: 95%;
+  margin: auto;
+  box-shadow: 1px 2px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 0.4rem;
+}
 .flex-title {
   color: white;
   text-align: center;
   margin: auto;
+  font-size: 1rem;
+  padding: 0.5rem;
+  font-weight: 300;
 }
-
+.inputs {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 input {
   margin: 0.5rem;
   padding: 0.5rem;
@@ -47,12 +73,15 @@ input {
 .bord {
   border-radius: 0.4rem;
   padding-top: 0.4rem;
-  width: 40%;
+  width: 30%;
+  background-image: linear-gradient(50deg, #342a89, #2738db);
   display: flex;
   justify-content: center;
 }
 .card-p {
+  background-image: linear-gradient(150deg, #4670f1, #71cafe);
   border: 0.4rem;
+  border-image: linear-gradient(30deg, #342a89, #2738db);
   text-align: center;
   width: 90%;
   border-radius: 0.3rem;
@@ -69,4 +98,13 @@ button {
   border-radius: 0.3rem;
   padding: 0.5rem;
   margin-bottom: 0.6rem;
+}
+p {
+  text-align: center;
+  color: white;
+  font-size: 0.8rem;
+}
+object {
+  width: 7rem;
+  padding: 0.5rem;
 }
