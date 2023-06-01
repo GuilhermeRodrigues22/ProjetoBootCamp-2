@@ -1,37 +1,72 @@
-.container{
-    background-image: linear-gradient(180deg,  #2F1134, #631F70);
-    margin: auto;
-    width: 700px;
-    border-radius: 12px;
+.container {
+  background-image: linear-gradient(180deg, #2f1134, #631f70);
+  margin: auto;
+  width: 700px;
+  border-radius: 12px;
 }
-.header{
-    text-align: center;
-    margin: auto;
+.header {
+  text-align: center;
+  margin: auto;
 }
-.card{
-    display: flex;
-    justify-content: space-around;
-    padding: 1rem;
+.title {
+  color: #fbcd23;
 }
-.title{
-    color: #fbcd23;
+.subtitle {
+  color: white;
 }
-
-
-.flex-title{
-    color: white;
-    text-align: center;
-    margin: auto;
+.second-subtitle {
+  color: white;
+}
+.third-subtitle {
+  color: white;
 }
 
+.flex-title {
+  color: white;
+  text-align: center;
+  margin: auto;
+}
 
-
-
-input{
-    margin: 0.5rem;
-    padding: 0.5rem;
-    border-radius: 0.3rem;
-    width: 70%;
-    font-size: 1.2rem;
-    border: 0;
+input {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  width: 70%;
+  font-size: 1.2rem;
+  border: 0;
+}
+.card-title {
+  color: white;
+  padding: 1.2rem;
+}
+.card {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.9rem;
+}
+.bord {
+  border-radius: 0.4rem;
+  padding-top: 0.4rem;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+.card-p {
+  border: 0.4rem;
+  text-align: center;
+  width: 90%;
+  border-radius: 0.3rem;
+}
+button {
+  display: flex;
+  background-color: #1d0c20;
+  color: #fffffd;
+  margin: auto;
+  border: none;
+  cursor: pointer;
+  justify-content: center;
+  width: 55%;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+  margin-bottom: 0.6rem;
 }
